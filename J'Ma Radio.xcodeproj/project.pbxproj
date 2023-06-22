@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040BB1B1299D28F400B770E7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB1B0299D28F400B770E7 /* UIColor+Extension.swift */; };
+		040BB1B4299D36E400B770E7 /* GothamPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 040BB1B2299D36A800B770E7 /* GothamPro-Light.ttf */; };
+		040BB1B6299D374D00B770E7 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BB1B5299D374D00B770E7 /* UIFont+Extension.swift */; };
 		043AAAFA299D226100D80355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AAAF9299D226100D80355 /* AppDelegate.swift */; };
 		043AAAFC299D226100D80355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AAAFB299D226100D80355 /* SceneDelegate.swift */; };
-		043AAAFE299D226100D80355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AAAFD299D226100D80355 /* ViewController.swift */; };
-		043AAB01299D226100D80355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043AAAFF299D226100D80355 /* Main.storyboard */; };
+		043AAAFE299D226100D80355 /* JMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AAAFD299D226100D80355 /* JMainViewController.swift */; };
+		043AAB01299D226100D80355 /* JMainViewContoller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043AAAFF299D226100D80355 /* JMainViewContoller.storyboard */; };
 		043AAB03299D226300D80355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043AAB02299D226300D80355 /* Assets.xcassets */; };
 		043AAB06299D226300D80355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043AAB04299D226300D80355 /* LaunchScreen.storyboard */; };
+		043AAB13299D25F400D80355 /* JPauseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AAB12299D25F400D80355 /* JPauseButtonView.swift */; };
+		043F515B29BF7DF30068C96E /* JWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F515A29BF7DF30068C96E /* JWebViewController.swift */; };
+		3BA0825C29D1E4580065F9A4 /* JAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0825B29D1E4580065F9A4 /* JAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040BB1B0299D28F400B770E7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		040BB1B2299D36A800B770E7 /* GothamPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Light.ttf"; sourceTree = "<group>"; };
+		040BB1B5299D374D00B770E7 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		043AAAF6299D226100D80355 /* J'Ma Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "J'Ma Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043AAAF9299D226100D80355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043AAAFB299D226100D80355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		043AAAFD299D226100D80355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		043AAB00299D226100D80355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043AAAFD299D226100D80355 /* JMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMainViewController.swift; sourceTree = "<group>"; };
+		043AAB00299D226100D80355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/JMainViewContoller.storyboard; sourceTree = "<group>"; };
 		043AAB02299D226300D80355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043AAB05299D226300D80355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043AAB07299D226300D80355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043AAB12299D25F400D80355 /* JPauseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPauseButtonView.swift; sourceTree = "<group>"; };
+		043F515A29BF7DF30068C96E /* JWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWebViewController.swift; sourceTree = "<group>"; };
+		3BA0825B29D1E4580065F9A4 /* JAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040BB1B3299D36AF00B770E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				043AAB02299D226300D80355 /* Assets.xcassets */,
+				040BB1B2299D36A800B770E7 /* GothamPro-Light.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		043AAAED299D226100D80355 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +79,34 @@
 			children = (
 				043AAAF9299D226100D80355 /* AppDelegate.swift */,
 				043AAAFB299D226100D80355 /* SceneDelegate.swift */,
-				043AAAFD299D226100D80355 /* ViewController.swift */,
-				043AAAFF299D226100D80355 /* Main.storyboard */,
-				043AAB02299D226300D80355 /* Assets.xcassets */,
+				043AAB11299D230B00D80355 /* Main Module */,
+				040BB1B3299D36AF00B770E7 /* Resources */,
 				043AAB04299D226300D80355 /* LaunchScreen.storyboard */,
 				043AAB07299D226300D80355 /* Info.plist */,
 			);
 			path = "J'Ma Radio";
+			sourceTree = "<group>";
+		};
+		043AAB11299D230B00D80355 /* Main Module */ = {
+			isa = PBXGroup;
+			children = (
+				043AAB16299D261900D80355 /* View */,
+				040BB1B0299D28F400B770E7 /* UIColor+Extension.swift */,
+				040BB1B5299D374D00B770E7 /* UIFont+Extension.swift */,
+			);
+			path = "Main Module";
+			sourceTree = "<group>";
+		};
+		043AAB16299D261900D80355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043AAAFF299D226100D80355 /* JMainViewContoller.storyboard */,
+				043AAAFD299D226100D80355 /* JMainViewController.swift */,
+				043F515A29BF7DF30068C96E /* JWebViewController.swift */,
+				043AAB12299D25F400D80355 /* JPauseButtonView.swift */,
+				3BA0825B29D1E4580065F9A4 /* JAnimationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				043AAB06299D226300D80355 /* LaunchScreen.storyboard in Resources */,
+				040BB1B4299D36E400B770E7 /* GothamPro-Light.ttf in Resources */,
 				043AAB03299D226300D80355 /* Assets.xcassets in Resources */,
-				043AAB01299D226100D80355 /* Main.storyboard in Resources */,
+				043AAB01299D226100D80355 /* JMainViewContoller.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +181,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043AAAFE299D226100D80355 /* ViewController.swift in Sources */,
+				040BB1B1299D28F400B770E7 /* UIColor+Extension.swift in Sources */,
+				043F515B29BF7DF30068C96E /* JWebViewController.swift in Sources */,
+				043AAAFE299D226100D80355 /* JMainViewController.swift in Sources */,
 				043AAAFA299D226100D80355 /* AppDelegate.swift in Sources */,
+				043AAB13299D25F400D80355 /* JPauseButtonView.swift in Sources */,
+				040BB1B6299D374D00B770E7 /* UIFont+Extension.swift in Sources */,
 				043AAAFC299D226100D80355 /* SceneDelegate.swift in Sources */,
+				3BA0825C29D1E4580065F9A4 /* JAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		043AAAFF299D226100D80355 /* Main.storyboard */ = {
+		043AAAFF299D226100D80355 /* JMainViewContoller.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				043AAB00299D226100D80355 /* Base */,
 			);
-			name = Main.storyboard;
+			name = JMainViewContoller.storyboard;
 			sourceTree = "<group>";
 		};
 		043AAB04299D226300D80355 /* LaunchScreen.storyboard */ = {
@@ -216,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +340,9 @@
 				INFOPLIST_FILE = "J'Ma Radio/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +350,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jma.J-Ma-Radio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +371,9 @@
 				INFOPLIST_FILE = "J'Ma Radio/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +381,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jma.J-Ma-Radio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
